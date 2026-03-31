@@ -1,0 +1,152 @@
+<!doctype html>
+<html>
+  <head>
+    <title>manoj mobile</title>
+    <style>
+      * {
+        padding: 0px;
+        margin: 0px;
+      }
+      body {
+        background-color: black;
+        color: white;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        display: flex;
+        justify-content: center;
+        margin-top: 90px;
+      }
+      .mobile {
+        border: 2px white solid;
+        border-radius: 30px;
+        width: 230px;
+        height: 450px;
+        position: relative;
+      }
+      .notificationbar {
+        background-color: grey;
+        position: absolute;
+        border-top-left-radius: 30px;
+        border-top-right-radius: 30px;
+        width: 100%;
+        height: 30px;
+      }
+      .form {
+        position: relative;
+        left: 10px;
+        top: 50px;
+        font-size: 12px;
+        width: 210px;
+        height: 900%;
+        background-color: aqua;
+        border-radius: 20px;
+      }
+      .form input {
+        width: 140px;
+        border-radius: 6px;
+      }
+      input[type="submit"] {
+        width: 70px;
+        position: relative;
+        left: 8px;
+        top: 20px;
+        background-color: blue;
+        color: white;
+        font-weight: bolder;
+      }
+      input[type="reset"] {
+        width: 70px;
+        position: relative;
+        left: 29px;
+        top: 20px;
+        background-color: red;
+        color: white;
+        font-weight: bolder;
+      }
+      input[type="checkbox"] {
+        position: relative;
+        width: 30px;
+        right: 0px;
+      }
+      .form button {
+        position: relative;
+        left: 60px;
+        top: 45px;
+        background-color: green;
+        color: white;
+        font-weight: bolder;
+      }
+
+      .p {
+        border: white 2px solid;
+        width: 70px;
+        position: relative;
+        left: 150px;
+        top: 9px;
+        font-size: 10px;
+        text-align: center;
+      }
+      .h1 {
+        width: 200px;
+        position: relative;
+        font-size: 12px;
+        top: 10px;
+        left: 6px;
+        background-color: rgb(116, 90, 90);
+        text-align: center;
+      }
+      .formdata {
+        position: absolute;
+        top: 80px;
+        color: black;
+        left: 5px;
+        font-weight: bold;
+      }
+      .bottom {
+        background-color: grey;
+        width: 95%;
+        height: 20px;
+        position: absolute;
+        bottom: -1400%;
+        padding: 6px;
+        border-bottom-left-radius: 30px;
+        border-bottom-right-radius: 30px;
+      }
+      a {
+        text-decoration: none;
+        color: white;
+      }
+      a:hover {
+        color: black;
+      }
+      input:hover,
+      button:hover {
+        background-color: rgba(11, 1, 1, 0.773);
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="mobile">
+      <div class="notificationbar">
+        <pre style="padding: 10px">Airtel       ◉   📶5G 🔋85%</pre>
+        <p class="p">english ></p>
+        <form class="form">
+          <h1 class="h1">WELCOME TO REGISTRATION PAGE</h1>
+          <div class="formdata">
+            <input type="text" placeholder="             name" required />Name
+            <br /><br />
+            <input type="password" placeholder="          password" required />
+            <span style="font-size: 12px">Password</span> <br /><br />
+            <input type="checkbox" required />Accept Terms & conditions
+            <input type="submit" />
+            <input type="reset" />
+            <button>Register</button>
+          </div>
+        </form>
+        <div class="bottom">
+          <pre>     <a href="mobile.html" target="_self">Home</a>     o       <a href="mobile.html" >Back</a></pre>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
